@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+  <config>
+    <field-set name="mailgun">
+      <label>Mailgun settings</label>
+      <items>
+        <input type="TextLine" name="mailgunApiKey">
+          <label>Mailgun API key</label>
+          <occurrences minimum="0" maximum="1"/>
+        </input>
+        <input type="TextLine" name="mailgunResourceUrl">
+          <label>Mailgun resource URL</label>
+          <occurrences minimum="0" maximum="1"/>
+        </input>
+      </items>
+    </field-set>
+  </config>
+</site>
